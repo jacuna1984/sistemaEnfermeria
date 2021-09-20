@@ -1,16 +1,30 @@
+body{
+    background-color: rgb(194, 190, 174);
+}
 ul{
     list-style-type: none;
-    background-color: #DC7633;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(186, 255, 116);
     position: fixed;
     width: 100%;
-    margin: 20px;
-    top: 0%;
-    
+    margin: 0px;
+    top: 0;
+    height: 30px;
+    padding: 10px;
+    border-style: solid;
+    border-color: blue;
+        
 }
 
 ul li{
     float: left;
     border-right: 1px solid #FDFEFE;
+    padding: 10px;
+    
+    
 }
 
 .titulo_index{
@@ -19,10 +33,12 @@ ul li{
 
 .titulo_h1{
     text-align: center;
-    color: blue;
-    background-color: chartreuse;
-    height: 50px;
-    width: auto;
-    margin-top: 50px;
-    
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(192, 245, 139);
+    border-style: solid;
+    height: 20px;
+    margin: 70px;
+    padding: 30px, 30px, 30px, 30px;
+
 }
