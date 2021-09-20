@@ -20,4 +20,9 @@ ul li{
 .titulo_h1{
     text-align: center;
     color: blue;
+    background-color: chartreuse;
+    height: 50px;
+    width: auto;
+    margin-top: 50px;
+    
 }
