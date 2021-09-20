@@ -16,3 +16,8 @@ ul li{
 .titulo_index{
     background-color: brown;
 }
+
+.titulo_h1{
+    text-align: center;
+    color: blue;
+}
