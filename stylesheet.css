@@ -1,66 +1,59 @@
+/*------------------------------------*/
 /*Cuerpo de la página*/
 body{
-    background-color: rgb(255, 255, 255);
+    background-color:rgb(71, 154, 250);
 }
 
+/*------------------------------------*/
 /*Barra de navegación*/
 .barra{
     list-style-type: none;
-    /*text-align: center;*/
-    /*font-size: large;*/
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-color: rgb(186, 255, 116);
-    /*position: fixed;*/
-    /*width: 100%*/
-    /*margin: 0;*/
-    /*top: 0;*/
-    /*height: 30px;*/
+    background-color: rgb(130, 255, 125);
     padding: 1em;
     border-style: solid;
-    border-color: blue;
+    border-color: rgb(0, 0, 150);
 }
 
-.img-fluid{
+/*Imagen_Logo*/
+.imgCabecera{
+    margin-top: 2.2em;
+    margin-right: 2em;
     float:right;
+    border-style: solid; 
+    border-color: rgb(0, 0, 150);
 }
 
-/*ul li{
-    float:left;
-    border: 2px solid blue;
-    padding: 1em;
-}*/
-
-
-.titulo_index{
-    background-color: brown;
+/*opciones*/
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 150);
 }
 
-.titulo_h1{
-    text-align: center;
-    color:blue;
+li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/*-------------------------------*/
+
+.tit_responsables{
+    color:rgb(0, 0, 150);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(192, 245, 139);
+    font-style: bold;
+    font-size: 110%;
+
+}
+
+.responsables{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(130, 255, 125);
+    color: rgb(0, 0, 150);
     border-style: solid;
-    height: 5em;
+    border-color: rgb(0, 0, 150);
     margin: 1em;
     padding: 1em;
 }
-
-/*.responsables{
-    list-style-type: none;
-    text-align: center;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-color: rgb(186, 255, 116);
-    position: fixed;
-    width: 100%;
-    margin: 200;
-    top: 0;
-    height: 30px;
-    padding: 10px;
-    border-style: solid;
-    border-color: blue;
-    margin-top: 200px;
-}*/
