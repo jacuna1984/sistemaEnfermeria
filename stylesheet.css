@@ -1,31 +1,36 @@
+/*Cuerpo de la página*/
 body{
-    background-color: rgb(194, 190, 174);
+    background-color: rgb(255, 255, 255);
 }
-ul{
+
+/*Barra de navegación*/
+.barra{
     list-style-type: none;
-    text-align: center;
-    font-size: large;
+    /*text-align: center;*/
+    /*font-size: large;*/
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-color: rgb(186, 255, 116);
-    position: fixed;
-    width: 100%;
-    margin: 0px;
-    top: 0;
-    height: 30px;
-    padding: 10px;
+    /*position: fixed;*/
+    /*width: 100%*/
+    /*margin: 0;*/
+    /*top: 0;*/
+    /*height: 30px;*/
+    padding: 1em;
     border-style: solid;
     border-color: blue;
-        
 }
 
-ul li{
-    float: left;
-    border-right: 1px solid #FDFEFE;
-    padding: 10px;
-    
-    
+.img-fluid{
+    float:right;
 }
+
+/*ul li{
+    float:left;
+    border: 2px solid blue;
+    padding: 1em;
+}*/
+
 
 .titulo_index{
     background-color: brown;
@@ -37,8 +42,25 @@ ul li{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(192, 245, 139);
     border-style: solid;
-    height: 20px;
-    margin: 70px;
-    padding: 30px, 30px, 30px, 30px;
-
+    height: 5em;
+    margin: 1em;
+    padding: 1em;
 }
+
+/*.responsables{
+    list-style-type: none;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(186, 255, 116);
+    position: fixed;
+    width: 100%;
+    margin: 200;
+    top: 0;
+    height: 30px;
+    padding: 10px;
+    border-style: solid;
+    border-color: blue;
+    margin-top: 200px;
+}*/
